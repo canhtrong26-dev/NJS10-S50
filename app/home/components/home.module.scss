@@ -450,3 +450,57 @@
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.newsletter {
+  padding: 80px;
+  text-align: center;
+  background-color: #f9f2f0;
+}
+
+.newsletterTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #010101;
+  margin-bottom: 16px;
+}
+
+.newsletterDescription {
+  font-size: 14px;
+  color: #676767;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.newsletterForm {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletterInput {
+  flex: 1;
+  padding: 14px 20px;
+  border: 1px solid #ccc;
+  border-right: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.newsletterButton {
+  padding: 14px 30px;
+  background-color: #ed017f;
+  color: #fff;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.formMessage {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #ed017f;
+  font-weight: 600;
+}

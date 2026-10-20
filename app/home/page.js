@@ -5,6 +5,7 @@ import CustomerExperience from "./components/CustomerExperience";
 import BusinessPartners from "./components/BusinessPartners";
 import OurServices from "./components/OurServices";
 import BestResults from "./components/BestResults";
+import Newsletter from "./components/Newsletter";
 
 export const metadata = {
   title: "IPDC Finance - Chase Your Dream With Us",
@@ -20,6 +21,7 @@ export default function page() {
       <BusinessPartners />
       <OurServices />
       <BestResults />
+      <Newsletter />
     </div>
   );
 }
