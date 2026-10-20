@@ -335,3 +335,68 @@
   font-weight: 600;
   text-decoration: none;
 }
+.ourServices {
+  padding: 60px 80px;
+  background-color: #f5f5f5;
+}
+
+.ourServicesTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #010101;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.ourServicesDescription {
+  font-size: 14px;
+  color: #676767;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.serviceCard {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.serviceImageWrapper {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.serviceImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.serviceInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.serviceTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: #010101;
+  letter-spacing: 1px;
+}
+
+.serviceArrow {
+  color: #ed017f;
+  font-size: 20px;
+  font-weight: 700;
+}
