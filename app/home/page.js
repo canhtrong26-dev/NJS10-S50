@@ -1,6 +1,7 @@
 import React from "react";
-import HeroSection from "./components/HeroSection";
 import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import CustomerExperience from "./components/CustomerExperience";
 
 export const metadata = {
   title: "IPDC Finance - Chase Your Dream With Us",
@@ -12,6 +13,7 @@ export default function page() {
     <div>
       <Header />
       <HeroSection />
+      <CustomerExperience />
     </div>
   );
 }

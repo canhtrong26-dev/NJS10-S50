@@ -186,7 +186,11 @@
   font-weight: 700;
   color: #343434;
 }
-
+.featureIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+}
 .indicators {
   position: absolute;
   bottom: 220px;
@@ -208,4 +212,48 @@
   height: 13px;
   border-radius: 50%;
   background-color: #f467b2;
+}
+
+.customerExperience {
+  padding: 80px;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+  margin-bottom: 16px;
+}
+
+.sectionDescription {
+  color: #676767;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto 60px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+
+.featureCard {
+  text-align: left;
+  padding: 20px;
+}
+
+.featureTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #010101;
+  margin-bottom: 12px;
+}
+
+.featureDescription {
+  font-size: 14px;
+  color: #676767;
+  line-height: 1.5;
 }
